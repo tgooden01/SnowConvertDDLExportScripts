@@ -40,18 +40,16 @@ setup(
     author_email='mauricio.rojas@mobilize.net',
     url='https://github.com/mobilize/SnowConvertDDLExportScripts/Teradata',
     zip_safe=False,
-    long_description=open('README.rst').read(),
+    long_description=open('TOOLS.rst').read(),
     long_description_content_type = "text/x-rst",
     classifiers=CLASSIFIERS,
     include_package_data=True,
     scripts=[
-        'sc-tera-export',
         'sc-tera-split-ddl',
         'sc-tera-extract-snippets',
         'sc-tera-restore-snippets'
     ],
     packages=[
-        'teraexport',
         'split'
     ]
 )

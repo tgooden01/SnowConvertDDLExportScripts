@@ -1,9 +1,13 @@
+# Modified by:
+# Modified Date:
+# Description:
+
 ## ---------------------------------------------------------------
 ## Modify the following settings
 ## ---------------------------------------------------------------
 
-SNOWFLAKE_DB_NAME="type your snowflake database name here"
-SNOWFLAKE_WAREHOUSE_NAME="type your snowflake warehouse name here"
+SNOWFLAKE_DB_NAME="ADVENTUREWORKSDW"
+SNOWFLAKE_WAREHOUSE_NAME="KVANCZ"
 SNOWFLAKE_FILE_FORMAT_NAME="PIPE_DELIMITED"
 SNOWFLAKE_STAGE_NAME="TERADATA_SOURCE_STAGE"
 
@@ -11,7 +15,7 @@ SNOWFLAKE_STAGE_NAME="TERADATA_SOURCE_STAGE"
 DATA_FILE_LOCATION="../output/data_extracts"
 
 ## Enter the Teradata Database Names to Generate Load Scripts
-TERADATA_DATABASES_TO_LOAD=(TERADATA_DATABASE1, TERADATA_DATABASE2)
+TERADATA_DATABASES_TO_LOAD=(ADVENTUREWORKSDW)
 
 ## ---------------------------------------------------------------
 ## Do not change below

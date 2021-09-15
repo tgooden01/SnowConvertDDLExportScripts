@@ -1,3 +1,7 @@
+**** Modified by:
+**** Modified Date:
+**** Description: 
+
 .LOGON connection_string;
 
 CREATE VOLATILE TABLE vt_test AS (
