@@ -10,7 +10,9 @@ Release 2021-09-07
 
 ## Usage
 
-The `extract-sql-server-ddl.ps1` script attempts to connect to an instance of SQL Server using either Windows or SQL authentication and, for each database that survives inclusion/exclusion filters, retrieves certain object definitions as individual DDL files to a local directory.
+The `extract-sql-server-ddl.ps1` script attempts to connect to an instance of SQL Server using either Windows or SQL authentication and, for each database that survives inclusion/exclusion filters, retrieves certain object definitions as individual DDL files to a local directory. 
+
+**SQL Server tested versions**: `SQL Server 2019`, `Azure SQLDatabase`
 
 The script use the following parameters:
 
@@ -25,6 +27,8 @@ The script use the following parameters:
 * **ScriptDirectory**: Specifies the root directory in which the extracted files are to be stored (default is C:\MyScriptsDirectory)
 * **INPUTS**: None.  You cannot pipe objects to extract-sql-server-ddl.ps1.
 * **OUTPUTS**: System.String.
+
+> **_NOTE:_**  For named instances, use  hostname\InstanceName
 
 Here some examples of how use the script:
 
@@ -45,6 +49,8 @@ Example 2:
 ```ps
 PS> .\extract-sql-server-ddl.ps1 -SqlAuthentication -ServerName foo.database.windows.net
 ```
+
+
 
 ## Reporting issues and feedback
 
