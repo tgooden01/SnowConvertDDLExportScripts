@@ -38,7 +38,6 @@ DDL Files - These files will contain the definitions of the objects specified by
 *	DDL_DBlink.sql
 *	DDL_Functions.sql
 *	DDL_Indexes.sql
-*	DDL_Macros.sql
 *	DDL_Packages.sql
 *	DDL_Procedures.sql
 *	DDL_Sequences.sql
@@ -47,6 +46,12 @@ DDL Files - These files will contain the definitions of the objects specified by
 *	DDL_Triggers.sql
 *	DDL_Types.sql
 *	DDL_Views.sql
+*   DDL_QUEUE_TABLES.sql
+*   DDL_OLAP_CUBES.sql
+*   DDL_MATERIALIZED_VIEWS.sql
+*   DDL_QUEUES.sql
+*   DDL_ANALYTIC_VIEWS.sql
+*   DDL_OPERATORS.sql
 
 
 **For Windows:**
@@ -78,7 +83,6 @@ DDL Files - These files will contain the definitions of the objects specified by
 *	DDL_DBlink.sql
 *	DDL_Functions.sql
 *	DDL_Indexes.sql
-*	DDL_Macros.sql
 *	DDL_Packages.sql
 *	DDL_Procedures.sql
 *	DDL_Sequences.sql
@@ -87,6 +91,12 @@ DDL Files - These files will contain the definitions of the objects specified by
 *	DDL_Triggers.sql
 *	DDL_Types.sql
 *	DDL_Views.sql
+*   DDL_QUEUE_TABLES.sql
+*   DDL_OLAP_CUBES.sql
+*   DDL_MATERIALIZED_VIEWS.sql
+*   DDL_QUEUES.sql
+*   DDL_ANALYTIC_VIEWS.sql
+*   DDL_OPERATORS.sql
 
 ## Reporting issues and feedback
 
